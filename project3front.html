@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<link rel="icon" href= "https://science.nasa.gov/wp-content/themes/nasa-child/assets/images/nasa-logo.svg" type="image/x-icon">
+<title>SpaceScience</title>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+<style>
+
+.img{position:absolute;
+width:100%;
+top:40%;
+left:60%;
+color:white;
+transform: translate(-50%,-50%);
+font-weight:bold;
+font-size:60px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.nav{gap:40px;
+display:flex;
+display:Relative;
+font-size:25px;
+justify-content:center;
+}
+.nav a{text-decoration:none;
+color:black;
+padding:8px;display:block;}
+.dropdown{position:relative;display:inline-block;}
+.dropdown-content{display:none;position:absolute;background-color:white;z-index:1;min-width: 200px;
+}
+.dropdown-content a{display:block;padding:10px;color:red;}
+ .dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+			
+
+</style>
+<body style="background: linear-gradient(to right, #e0e0e0, #b0bec5, #90a4ae);">
+<div>
+<img src="https://science.nasa.gov/wp-content/uploads/2020/10/sub-warped-gaia-000000-14x5-1.webp" width="100%" >
+
+<div class="img">Black Hole Basics</div><br><br>
+
+<nav class="nav">
+<nav class="navbar navbar-default" style="height:50px">
+<ul class="nav navbar-nav">
+<li><a style="text-decoration:none;color:Black;" href="D:\hw documents\FRONT END\notes\templates\project3universehome.html"> Universe </a></li>
+<div class="dropdown">
+<li><a href="#">Basics<span class="caret"></span>
+</a></li>
+<div class="dropdown-content" > 
+<li><a  href="D:\hw documents\FRONT END\notes\templates\project3history.html">History</a></li>
+<li><a  href="D:\hw documents\FRONT END\notes\templates\project3types.html">Types</a></li>
+</div>
+</div>
+<li><a style="text-decoration:none;color:Black;" href="D:\hw documents\FRONT END\notes\templates\project3formation.html">Formation</a></li>
+<li><a style="text-decoration:none;color:Black;" href="D:\hw documents\FRONT END\notes\templates\project3exploration.html"> Exploration</a></li>
+<li><a style="text-decoration:none;color:Black;" href=" http://127.0.0.1:5000"> Quiz</a>
+
+</nav><br><br><br>
+</nav>
+</ul>
+<style>
+.blackhole {animation:bounce 2s infinite ease-in-out;
+clip-path:circle(40%);position:absolute;top:1000px;}
+@keyframes bounce{0%{transform:translateY(0)  scale(4) rotate(0deg);filter:brightness(20%)}
+40%{transform:translateY(10px) scale(3) rotate(180deg);filter:brightness(150%)}
+100%{transform:translateY(0) scale(2) rotate(360deg);filter:brightness(20%)}}
+.center{display:flex;align-items:center;justify-content:center;}
+.table{border-collapse:collapse;
+
+font-size:25px;
+text-align:Center;
+border:2px solid black;}
+table th,td{border:2px solid black;}
+text-align:center;
+
+</style>
+<div class="center">
+<img  class="blackhole" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8wKIZSLLVMvyjKRDAYs_JdwKN6rDlhsrG0A&s" >
+</div>
+<h2 style="margin-top:800px;text-align:center;font-size:45px;font-family:Brush Script MT">Essential Black Hole Facts</h2>
+<center>
+<table class="table">
+<tr>
+<td><b style="color:indigo;font-size:40px;">01</b><br>
+Closest.<br>
+The nearest known black hole, called Gaia BH1, is about 1,500 light-years away.<br>
+<button  type="button"class="btn btn-info"  data-toggle="modal" data-target="#mod1">
+View more</button>
+<div id="mod1" class="modal fade" role="dialog">
+<div class="modal-dialog">
+
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="modal-title">First Point</h3>
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+</div>
+<div class="modal-body">
+<p>
+The nearest known black hole to Earth, named Gaia BH1, lies approximately 1,500 light-years away in the constellation Ophiuchus. This discovery was announced in 2022, based on data collected by the European Space Agency’s Gaia spacecraft, along with follow-up observations using ground-based telescopes.</p></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>	
+<b style="color:indigo;font-size:40px;">02</b><br>
+Farthest.<br>
+The most distant black hole detected, at the center of a galaxy called QSO J0313-1806, is around 13 billion light-years away.<br><br><br>
+<button  type="button"class="btn btn-info"  data-toggle="modal" data-target="#mod2">
+View more</button>
+<div id="mod2" class="modal fade" role="dialog">
+<div class="modal-dialog">
+
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="modal-title">Second Point</h3>
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+</div>
+<div class="modal-body">
+<p>
+The most distant black hole discovered so far lies at the center of a galaxy known as QSO J0313–1806, which is located approximately 13 billion light-years from Earth. This supermassive black hole existed just 670 million years after the Big Bang, offering scientists an incredible glimpse into the early universe.</p></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<b style="color:indigo;font-size:40px;">03</b><br>
+Biggest.<br>
+The most massive black hole observed, TON 618, tips the scales at 66 billion times the Sun’s mass.<br><br><br><br><br>
+<button  type="button"class="btn btn-info"  data-toggle="modal" data-target="#mod3">
+View more</button>
+<div id="mod3" class="modal fade" role="dialog">
+<div class="modal-dialog">
+
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="modal-title">Third Point</h3>
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+</div>
+<div class="modal-body">
+<p>
+The most massive black hole ever observed is known as TON 618, a ultramassive black hole located about 10.4 billion light-years from Earth. It has an estimated mass of roughly 66 billion times that of the Sun, making it one of the most extreme known objects in the universe.</p></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<b style="color:indigo;font-size:40px;">04</b><br>
+Smallest.<br>
+The lightest-known black hole is only 3.8 times the Sun’s mass. It’s paired up with a star.<br><br>
+<button  type="button"class="btn btn-info"  data-toggle="modal" data-target="#mod4">
+View more</button>
+<div id="mod4" class="modal fade" role="dialog">
+<div class="modal-dialog">
+
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="modal-title">Fourth Point</h3>
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+</div>
+<div class="modal-body">
+<p>
+The lightest-known black hole discovered so far has a mass of about 3.8 times that of our Sun, which is extremely small by black hole standards. This black hole is part of a binary system, meaning it is paired with a companion star, orbiting around a common center of mass.</p></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td>
+<b style="color:indigo;font-size:40px;">05</b><br>
+Spaghettification.<br>
+A real term that describes what happens when matter gets too close to a black hole. It’s squeezed horizontally and stretched vertically, resembling a nood<br><br><br>
+<button  type="button"class="btn btn-info"  data-toggle="modal" data-target="#mod5">
+View more</button>
+<div id="mod5" class="modal fade" role="dialog">
+<div class="modal-dialog">
+
+<div class="modal-content">
+<div class="modal-header">
+<h3 class="modal-title">Fifth Point</h3>
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+</div>
+<div class="modal-body">
+<p>
+Spaghettification, also known as the "noodle effect," is a real and scientifically accepted term that describes what happens when an object gets too close to a black hole, especially a stellar-mass one.
+
+As you approach the black hole, the force of gravity increases dramatically — but not uniformly</p></div>
+<div class="modal-footer">
+<button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td >
+<img class="tableimg" src="https://d2pn8kiwq2w21t.cloudfront.net/images/bh_diagram.2e16d0ba.fill-1024x512-c10.jpg" >
